@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+}
+.center{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+}
+table{
+    width: 100%;
+    background-color: rgb(216, 243, 234);
+}
+tr{
+    background-color: azure;
+}
+tr:nth-child(even){
+    background-color: rgb(240, 238, 237);
+}
+th,td{
+    padding: 10px;
+}
+a{
+    color:red;
+    text-decoration: none;
+}
